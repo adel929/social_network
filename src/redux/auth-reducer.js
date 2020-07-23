@@ -44,6 +44,12 @@ export const getAuthUserData = () => async(dispatch) => {
             }
 }
 
+export const getCaptchaUrl = () => async (dispatch) => {
+    const response = await securityAPI.getCaptchaURL();
+    const captchaUrl = response.data.url;
+    dispatch(getCaptchaUrlSuccess(captchaUrl));
+}
+
 export const login = (email, password, rememberMe, captcha) => async (dispatch) => {
     let response = await authAPI.login(email, password, rememberMe, captcha)
             if (response.data.resultCode === 0) {
@@ -57,18 +63,11 @@ export const login = (email, password, rememberMe, captcha) => async (dispatch) 
             }
 }
 
-export const getCaptchaUrl = () => async (dispatch) => {
-    const response = await securityAPI.getCaptchaURL();
-    const captchaUrl = response.data.url;
-    dispatch(getCaptchaUrlSuccess(captchaUrl));
-}
-
 export const logout = () => async (dispatch) => {
     let response = await authAPI.logout()
             if (response.data.resultCode === 0) {
                 dispatch(setAuthUserData(null, null, null, false))
             }
 }
-
 
 export default authReducer;

@@ -22,6 +22,20 @@ body {
   background-color: rgb(15, 15, 15);
 }
 
+.regConteiner {
+  position: relative;
+  float: right;
+}
+
+.regHref {
+  font-size: 16px;
+  background: rgb(105, 105, 105);
+  color: blanchedalmond;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: 600;
+}
+
 /* .header img {
   width: 70px;
   height: 50px;
@@ -31,7 +45,7 @@ body {
 
 .loginBlock {
   float: right;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 .loginBlock a {
   color: beige;
