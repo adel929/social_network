@@ -1,0 +1,14 @@
+.descriptionBlock {
+    padding: 10px;
+}
+
+.contact {
+    padding-left: 30px;
+}
+
+.mainPhoto {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 180px;
+}

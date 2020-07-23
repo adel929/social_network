@@ -1,0 +1,21 @@
+.userPhoto {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.numberScroll span{
+    margin: 3px;
+}
+
+.numberScroll {
+    padding-bottom: 15px;
+}
+
+.content {
+    padding: 5px;
+}
+
+.usersPadding {
+    padding: 10px;
+}

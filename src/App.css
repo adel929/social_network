@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+}
+.App-main {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "nav content";
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.conteiner {
+  grid-area: content;
+  background-color: rgb(156, 156, 158);
+}
+
+.item {
+  color: azure;
+}

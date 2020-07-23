@@ -1,0 +1,45 @@
+.formControl.error input
+.formControl.error textarea
+{
+    border: solid red 2px;
+}
+
+.formControl.error span {
+    color: red;
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 5px;
+    color: red;
+}
+
+.userLogin {
+    position: relative;
+    width: 200px;
+    left: 40%;
+    padding: 15px;
+}
+
+.userLogin img {
+    position: relative;
+    width: 80px;
+    border-radius: 50px;
+    left: 45px;
+}
+
+.loginButton {
+   position: relative;
+   left: 55px;
+   padding-top: 10px;
+}
+
+.loginButton button {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.loginForm input {
+    border-radius: 5px;
+    height: 20px;
+}

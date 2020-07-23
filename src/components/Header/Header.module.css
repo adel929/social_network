@@ -1,0 +1,70 @@
+/* :root {
+  --bg: #3C465C;
+  --primary: #78FFCD;
+  --solid: #fff;
+  --btn-w: 10em;
+  --dot-w: calc(var(--btn-w)*.2);
+  --tr-X: calc(var(--btn-w) - var(--dot-w));
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  background: var(--bg);
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+} */
+
+.header {
+  grid-area: head;
+  background-color: rgb(15, 15, 15);
+}
+
+/* .header img {
+  width: 70px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 15px;
+} */
+
+.loginBlock {
+  float: right;
+  padding-right: 20px;
+}
+.loginBlock a {
+  color: beige;
+}
+
+.nameTextHeader {
+  font-size: 22px;
+  position: relative;
+  top: 25px;
+  font-style: italic;
+  padding: 7px;
+  color: blanchedalmond;
+}
+
+.loginAccount {
+  color: aliceblue;
+  font-size: 18px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.btnLogOut {
+  font-size: 16px;
+  background: rgb(105, 105, 105);
+  color: aliceblue;
+  border-radius: 6px;
+  font-style: italic;
+  font-weight: 600;
+}
+.btnLogin {
+  font-size: 16px;
+  background: rgb(105, 105, 105);
+  color: aliceblue;
+  border-radius: 6px;
+  font-style: italic;
+  font-weight: 600;
+}
