@@ -33,7 +33,7 @@ class App extends Component {
                     render={withSuspense(DialogsContainer)} />
                     <Route path='/profile/:userId?'
                     render={withSuspense(ProfileContainer)} />
-                    <Route path='/users' render={() => <UsersContainer />} />
+                    <Route path='/users' render={() => <UsersContainer pageTitle={"Users"} />} />
                     <Route path='/login' render={() => <LoginPage />} />
                 </div>
             </div>
