@@ -1,12 +1,12 @@
 .nav {
   grid-area: nav;
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(200, 200, 200);
 }
 
 .nav a {
   color: black;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .nav a.active {
@@ -22,4 +22,40 @@
 
 .item {
   margin-top: 2px;
+}
+
+.profile {
+  width: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.users {
+  width: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.message {
+  width: 35px;
+  position: relative;
+  top: 6px;
+}
+
+.music {
+  width: 28px;
+  position: relative;
+  top: 3px;
+}
+
+.setting {
+  width: 24px;
+  position: relative;
+  top: 4px;
+}
+
+.news {
+  width: 30px;
+  position: relative;
+  top: 1px;
 }

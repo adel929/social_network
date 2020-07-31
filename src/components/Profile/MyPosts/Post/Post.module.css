@@ -3,3 +3,10 @@
   height: 60px;
   border-radius: 50px;
 }
+
+.like img{
+  width: 23px;
+  height: 25px;
+  position: relative;
+  top: 3px;
+}

@@ -2,12 +2,12 @@
   --bg: #3C465C;
   --primary: #78FFCD;
   --solid: #fff;
-  --btn-w: 10em;
+  --btn-w: 1em;
   --dot-w: calc(var(--btn-w)*.2);
   --tr-X: calc(var(--btn-w) - var(--dot-w));
 }
 body {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 
 .header {
   grid-area: head;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(255, 255, 255);
 }
 
 .regConteiner {
@@ -27,58 +27,25 @@ body {
   float: right;
 }
 
-.regHref {
-  font-size: 16px;
-  background: rgb(105, 105, 105);
-  color: blanchedalmond;
-  border-radius: 10px;
-  font-style: italic;
-  font-weight: 600;
-}
-
-/* .header img {
-  width: 70px;
-  height: 50px;
-  padding: 5px;
-  border-radius: 15px;
-} */
-
 .loginBlock {
   float: right;
   padding-right: 10px;
 }
 .loginBlock a {
-  color: beige;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background: rgb(49, 71, 195);
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 .nameTextHeader {
   font-size: 22px;
   position: relative;
   top: 25px;
+  left: 10px;
   font-style: italic;
   padding: 7px;
-  color: blanchedalmond;
-}
-
-.loginAccount {
-  color: aliceblue;
-  font-size: 18px;
-  font-family: 'Permanent Marker', cursive;
-}
-
-.btnLogOut {
-  font-size: 16px;
-  background: rgb(105, 105, 105);
-  color: aliceblue;
-  border-radius: 6px;
-  font-style: italic;
-  font-weight: 600;
-}
-.btnLogin {
-  font-size: 16px;
-  background: rgb(105, 105, 105);
-  color: aliceblue;
-  border-radius: 6px;
-  font-style: italic;
-  font-weight: 600;
+  color: black;
 }

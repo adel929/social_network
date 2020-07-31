@@ -2,6 +2,7 @@
     width: 100px;
     height: auto;
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 .numberScroll span{
@@ -13,9 +14,13 @@
 }
 
 .content {
-    padding: 5px;
+    padding: 1px;
 }
 
 .usersPadding {
     padding: 10px;
+}
+
+.usersContent {
+    padding-left: 15px;
 }

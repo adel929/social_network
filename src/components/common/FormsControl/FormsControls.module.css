@@ -37,6 +37,8 @@
 .loginButton button {
     border-radius: 5px;
     font-size: 16px;
+    background: rgb(49, 71, 195);
+    color: white;
 }
 
 .loginForm input {
