@@ -1,4 +1,5 @@
 import React, { ChangeEvent } from "react";
+import css from "./ProfileInfo.module.css";
 
 type PropsType = {
   status: string
@@ -48,7 +49,7 @@ componentDidUpdate (prevProps: PropsType, prevState: StateType) {
       <div>
           { !this.state.editMode &&
         <div>
-          <span onDoubleClick={ this.activeEditMode }>{this.props.status}</span>
+          <span onDoubleClick={ this.activeEditMode } >{this.props.status}</span>
         </div>
   }
   { this.state.editMode &&

@@ -9,7 +9,7 @@ const Post = props => {
       {props.massage}
       <div>
         <span className={css.like}>
-          <img src={like} />:  
+          <img src={like} /> 
         </span>
         {props.likesCount}
       </div>

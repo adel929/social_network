@@ -1,14 +1,39 @@
 .descriptionBlock {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "myPhoto info"
+        "input input"
+        "status status";
     padding: 10px;
+    height: 400px;
+}
+
+.inputFile {
+    grid-area: input;
 }
 
 .contact {
     padding-left: 30px;
+    font-style: italic;
 }
 
 .mainPhoto {
-    width: 150px;
-    height: 150px;
+    width: 260px;
+    height: 300px;
     padding: 5px;
-    border-radius: 180px;
+    border-radius: 30px;
+    grid-area: myPhoto;
+    border: 1px solid black;
+}
+
+.profileInfo {
+    width: 400px;
+    font-size: 19px;
+    grid-area: info;
+}
+.profileStatus {
+    width: 400px;
+    grid-area: status;
 }
