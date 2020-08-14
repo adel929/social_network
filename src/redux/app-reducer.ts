@@ -1,4 +1,3 @@
-import React from "react";
 import { getAuthUserData } from "./auth-reducer"
 
 const SET_INITIALIZED_SUCCESS = "SET_INITIALIZED_SUCCESS";
@@ -11,7 +10,7 @@ let initialState: InitialStateType = {
     initialized: false
 };
 
-const appReducer = (state = initialState, action: any): InitialStateType => {
+const appReducer = (state = initialState, action: ActionTypes): InitialStateType => {
     switch (action.type) {
         case SET_INITIALIZED_SUCCESS:
             return {
@@ -23,6 +22,9 @@ const appReducer = (state = initialState, action: any): InitialStateType => {
             return state;
     }
 };
+
+type ActionTypes = InitializedSuccessType
+
 
 export type InitializedSuccessType = {
     type: typeof SET_INITIALIZED_SUCCESS
